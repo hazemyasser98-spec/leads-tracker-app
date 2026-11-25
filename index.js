@@ -6,7 +6,7 @@ import { getDatabase,
          remove } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURL: "https://chroma-extension-default-rtdb.europe-west1.firebasedatabase.app/leads"
+    databaseURL: "https://chroma-extension-default-rtdb.europe-west1.firebasedatabase.app"
 }
 
 const app = initializeApp(firebaseConfig)
